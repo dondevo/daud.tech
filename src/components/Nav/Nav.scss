@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgb(170, 196, 206);
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+    @media (max-width: 425px) {
+      nav {
+        height: 1rem; } }
+        nav .menu {
+            margin-right: 1rem;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex: 1 1;
+                flex: 1 1;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+            nav .menu__item {
+              padding: 0.25rem 0;
+              margin: 0 1rem;
+              font-size: 1.25rem;
+              font-weight: 400;
+              border-bottom: 2px solid transparent; }
+              nav .menu__item:hover {
+                cursor: pointer; }
