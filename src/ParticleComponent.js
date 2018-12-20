@@ -3,8 +3,9 @@ import Particles from 'react-particles-js';
 
 export default () => (
   <div
+    id="particles"
     style={{
-      position: 'absolute',
+      position: 'fixed',
       top: 0,
       left: 0,
       width: '100%',
