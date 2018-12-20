@@ -13,10 +13,14 @@ class ScrollToNext extends Component {
   render() {
     return (
       // eslint-disable-next-line jsx-a11y/interactive-supports-focus
-      <div className="scroll-to-next" onClick={e => this.scrollToNext()} role="button">
+      <div className="scroll-to-next">
         <div className="arrow bounce">
           <div className="scroll-text">Click Me</div>
-          <button className="fas fa-chevron-down fa-2x" href="#" />
+          <button
+            className="fas fa-chevron-down fa-2x"
+            href="#"
+            onClick={e => this.scrollToNext()}
+          />
         </div>
       </div>
     );
