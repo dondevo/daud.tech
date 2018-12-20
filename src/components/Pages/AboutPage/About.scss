@@ -3,7 +3,9 @@
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgb(170, 196, 206);
+  z-index: 9999;
+  position: relative;
+  overflow: hidden;
   -ms-flex: 0 1 auto;
       flex: 0 1 auto;
   -ms-flex-direction: column;
