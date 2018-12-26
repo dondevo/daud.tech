@@ -2,13 +2,16 @@ import React from 'react';
 import './LandingPage.scss';
 import Icons from '../../Icons/Icons';
 import ScrollToNext from '../../Scroll/ScrollToNext';
+import AnimatedTyping from '../AboutPage/Typing';
 
 const LandingPage = () => (
   <div className="landing-page">
     <main>
       <div className="intro-wrapper">
         <div className="intro-name">Hello, I'm Daud!</div>
-        <div className="tagline">Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja</div>
+        <div className="tagline">
+          <AnimatedTyping>Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja</AnimatedTyping>
+        </div>
       </div>
       <Icons />
       <ScrollToNext pageSelector=".about-page" />

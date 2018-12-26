@@ -12,12 +12,9 @@ class ScrollToTop extends Component {
   }
 
   render() {
-    const {
-      theme: { colorPrimary }
-    } = this.context;
     return (
       <div className="scroll-to-next" onClick={e => this.scrollToNext()}>
-        <div className="arrow bounce" style={{ color: colorPrimary }}>
+        <div className="arrow bounce">
           <div className="scroll-text">Click Me</div>
           <button className="fas fa-chevron-down fa-2x" href="#" />
         </div>
@@ -28,10 +25,6 @@ class ScrollToTop extends Component {
 
 ScrollToNext.propTypes = {
   pageSelector: PropTypes.string
-};
-
-ScrollToNext.contextTypes = {
-  theme: PropTypes.any
 };
 
 export default ScrollToTop;
