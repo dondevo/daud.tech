@@ -4,7 +4,7 @@ import './Icons.scss';
 
 const Icons = () => (
   <div className="social-icons animate-icons">
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/dondevo">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/dondevo" >
       <i className="fab fa-github" />
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dondevo">

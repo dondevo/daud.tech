@@ -9,9 +9,8 @@ import PortfolioPage from './components/Pages/ProjectPage/Projects';
 class App extends Component {
   render() {
     return (
-      <div className="dev-landing-page" id="root">
+     <div className="dev-landing-page" id="root">
         <MyHeader />
-        <ParticleComponent />
         <LandingPage />
         <AboutPage />
         <PortfolioPage />

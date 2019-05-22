@@ -1,21 +1,23 @@
-import React from 'react';
+import React, {useEffect, Component} from 'react';
 import StickyHeader from 'react-sticky-header';
 import './Nav.scss';
 
-const MyHeader = () => (
-  <StickyHeader
-    header={(
-<nav>
-  <ul className="nav">
-                <li className="menu__item" href="#">
-            Hello
-    </li>
-          <li className="menu__item">Projects</li>
-                <li className="menu__item">Blog</li>
-              </ul>
-              </nav>
-)    }
-  />
-);
+export default function MyHeader() {
 
-export default MyHeader;
+return (
+  <ul className="nav" style={{
+    position: "fixed",
+    top: "0",
+    width: "100%",
+    height:"3rem",
+    display:"-ms-flexbox",
+    display: "flex",
+    backgroundColor:"rgb(170, 196, 206)",
+
+
+ }}>
+ <button onClick={e=>console.log(e)}>About</button>
+ </ul>
+)
+  };
+
